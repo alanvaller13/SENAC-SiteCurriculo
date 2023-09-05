@@ -1,0 +1,413 @@
+.container {
+    display: grid;
+    grid-gap: 5px;
+    grid-template-columns: auto-fit, 100%;
+    grid-template-rows: auto-fit, 100%;
+}
+
+body {
+    font-family: arial;
+    background-color: rgb(255, 255, 255);
+    margin: 0;
+    padding: 0;
+}
+
+.titulo {
+    font-size: 35px;
+    color: rgb(0, 0, 0);
+    text-align: center;
+}
+
+.subtitulo {
+    font-size: 25px;
+    color: rgb(0, 0, 0);
+    text-align: center;
+}
+
+.subtitulo2 {
+    font-size: 20px;
+    font-weight: bold;
+    color: rgb(0, 0, 0);
+    text-align: center;
+}
+
+p {
+    line-height: 7px;
+}
+
+a {
+    text-decoration: none;
+}
+
+header {
+    background-color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
+    text-align: center;
+    padding: 15px;
+    font-size: 15px;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #ffffff;
+    font-weight: bold;
+    transition: color 1s;
+    border-radius: 28px;
+    padding: 7px;
+
+}
+
+nav a:hover {
+    color: rgb(172, 41, 41)
+}
+
+main {
+    margin-top: 10px;
+    width: 800px;
+    height: 430px;
+    margin: auto;
+    padding: 20px;
+    background-color: white;
+}
+
+.main2 {
+    margin-top: 10px;
+    width: 800px;
+    height: 1170px;
+    margin: auto;
+    padding: 20px;
+    background-color: white;
+}
+
+.card {
+    width: 500px;
+    height: 500px;
+    background-image: linear-gradient(white);
+    border: solid, gray;
+    border-radius: 10px;
+    padding-top: 10px;
+    position: relative;
+    margin: auto;
+    font-family: Arial;
+    box-shadow: 18px 31px 50px #98808050,
+        -18px -18px 31px #fdd5d527;
+}
+
+.card span {
+    font-weight: 600;
+    color: rgb(129, 41, 41);
+    text-align: center;
+    display: block;
+    padding-top: 40px;
+    font-size: 25px;
+}
+
+.card .info {
+    font-weight: 400;
+    color: white;
+    display: block;
+    text-align: center;
+    padding-top: 5px;
+    font-size: 1em;
+}
+
+.card .img {
+    width: 250px;
+    height: 250px;
+    background: #e8e8e800;
+    border-radius: 100%;
+    margin: auto;
+    margin-top: 10px;
+}
+
+button {
+    padding: 17px 40px;
+    border-radius: 10px;
+    border: hsl(0, 0%, 90%) solid;
+    opacity: 70%;
+    background-color: white;
+    box-shadow: rgb(0 0 0 / 3%) 0 0 8px;
+    letter-spacing: 1.5px;
+    text-transform: uppercase;
+    font-size: 15px;
+    transition: all .5s ease;
+    position: static;
+    margin-bottom: 10px;
+    box-shadow: rgb(128, 128, 128) 0px 7px 29px 0px;
+}
+
+button:hover {
+    letter-spacing: 3px;
+    background-color: hsl(0, 0%, 0%);
+    color: hsl(0, 0%, 100%);
+    box-shadow: rgb(128, 128, 128) 0px 7px 29px 0px;
+}
+
+button:active {
+    letter-spacing: 3px;
+    background-color: hsl(0, 0%, 54%);
+    color: hsl(0, 0%, 100%);
+    box-shadow: rgb(0, 0, 0) 0px 0px 0px 0px;
+    transform: translateY(10px);
+    transition: 100ms;
+}
+
+#linha {
+    width: 100%;
+    border: 2px solid #4b4444;
+    padding-bottom: 3px;
+    border-radius: 20px;
+    background-color: #4b4444;
+}
+
+#linhaH {
+    width: 100%;
+    border: 2px solid #4b4444;
+    padding-bottom: 3px;
+    border-radius: 20px;
+    background-color: #4b4444;
+}
+
+li {
+    padding-top: 5px;
+    line-height: 20px;
+}
+
+.box1 {
+    position: absolute;
+    border: 5px solid #4b4444;
+    margin: auto;
+    width: 300px;
+    height: 250px;
+    border-radius: 10px;
+    margin-top: 1px;
+    padding-left: 20px;
+    padding-top: 10px;
+    box-shadow: 18px 31px #98808050,
+        -18px -18px 31px #fdd5d527;
+}
+
+.box2 {
+    float: right;
+    border: 5px solid #4b4444;
+    margin: auto;
+    width: 300px;
+    height: 250px;
+    border-radius: 10px;
+    margin-top: 1px;
+    padding-left: 20px;
+    padding-top: 10px;
+    box-shadow: 18px 31px #98808050,
+        -18px -18px 31px #fdd5d527;
+}
+
+#Centro{
+margin-left: 50px;
+}
+
+.imgSocial {
+    width: 75px;
+    height: 75px;
+    margin: auto;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    padding-top: 10px;
+}
+
+.boxFace {
+    margin-top: 10px;
+    border: solid rgb(145, 145, 145);
+    background-color: rgb(160, 159, 157);
+    float: left;
+    margin: auto;
+    width: 100px;
+    height: 100px;
+}
+
+.boxFace:hover {
+    letter-spacing: 3px;
+    background-color: hsl(0, 11%, 59%);
+    color: hsl(0, 0%, 100%);
+    box-shadow: rgb(128, 128, 128) 0px 7px 29px 0px;
+}
+
+.boxFace:active {
+    letter-spacing: 3px;
+    background-color: hsl(0, 0%, 54%);
+    color: hsl(0, 0%, 100%);
+    box-shadow: rgb(189, 158, 158) 0px 0px 0px 0px;
+    transform: translateY(10px);
+    transition: 100ms;
+}
+
+.boxInsta {
+    margin-top: 10px;
+    border: solid rgb(145, 145, 145);
+    background-color: rgb(160, 159, 157);
+    float: left;
+    margin: auto;
+    margin-left: 10px;
+    width: 100px;
+    height: 100px;
+}
+
+.boxInsta:hover {
+    letter-spacing: 3px;
+    background-color: hsl(0, 11%, 59%);
+    color: hsl(0, 0%, 100%);
+    box-shadow: rgb(128, 128, 128) 0px 7px 29px 0px;
+}
+
+.boxInsta:active {
+    letter-spacing: 3px;
+    background-color: hsl(0, 0%, 54%);
+    color: hsl(0, 0%, 100%);
+    box-shadow: rgb(189, 158, 158) 0px 0px 0px 0px;
+    transform: translateY(10px);
+    transition: 100ms;
+}
+
+.boxTwitter {
+    margin-top: 10px;
+    border: solid rgb(145, 145, 145);
+    background-color: rgb(160, 159, 157);
+    float: left;
+    margin: auto;
+    margin-left: 10px;
+    width: 100px;
+    height: 100px;
+}
+
+.boxTwitter:hover {
+    letter-spacing: 3px;
+    background-color: hsl(0, 11%, 59%);
+    color: hsl(0, 0%, 100%);
+    box-shadow: rgb(128, 128, 128) 0px 7px 29px 0px;
+}
+
+.boxTwitter:active {
+    letter-spacing: 3px;
+    background-color: hsl(0, 0%, 54%);
+    color: hsl(0, 0%, 100%);
+    box-shadow: rgb(189, 158, 158) 0px 0px 0px 0px;
+    transform: translateY(10px);
+    transition: 100ms;
+}
+
+.boxLinkedIn {
+    margin-top: 10px;
+    border: solid rgb(145, 145, 145);
+    background-color: rgb(160, 159, 157);
+    float: left;
+    margin: auto;
+    margin-left: 10px;
+    width: 100px;
+    height: 100px;
+}
+
+.boxLinkedIn:hover {
+    letter-spacing: 3px;
+    background-color: hsl(0, 11%, 59%);
+    color: hsl(0, 0%, 100%);
+    box-shadow: rgb(128, 128, 128) 0px 7px 29px 0px;
+}
+
+.boxLinkedIn:active {
+    letter-spacing: 3px;
+    background-color: hsl(0, 0%, 54%);
+    color: hsl(0, 0%, 100%);
+    box-shadow: rgb(189, 158, 158) 0px 0px 0px 0px;
+    transform: translateY(10px);
+    transition: 100ms;
+}
+
+.boxGitHub {
+    margin-top: 10px;
+    border: solid rgb(145, 145, 145);
+    background-color: rgb(160, 159, 157);
+    float: left;
+    margin: auto;
+    margin-left: 10px;
+    width: 100px;
+    height: 100px;
+}
+
+.boxGitHub:hover {
+    letter-spacing: 3px;
+    background-color: hsl(0, 11%, 59%);
+    color: hsl(0, 0%, 100%);
+    box-shadow: rgb(128, 128, 128) 0px 7px 29px 0px;
+}
+
+.boxGitHub:active {
+    letter-spacing: 3px;
+    background-color: hsl(0, 0%, 54%);
+    color: hsl(0, 0%, 100%);
+    box-shadow: rgb(189, 158, 158) 0px 0px 0px 0px;
+    transform: translateY(10px);
+    transition: 100ms;
+}
+
+.boxOutrasMidias {
+    margin-top: 10px;
+    border: solid rgb(145, 145, 145);
+    background-color: rgb(160, 159, 157);
+    float: left;
+    margin: auto;
+    margin-left: 10px;
+    width: 100px;
+    height: 100px;
+}
+
+.boxOutrasMidias:hover {
+    letter-spacing: 3px;
+    background-color: hsl(0, 11%, 59%);
+    color: hsl(0, 0%, 100%);
+    box-shadow: rgb(128, 128, 128) 0px 7px 29px 0px;
+}
+
+.boxOutrasMidias:active {
+    letter-spacing: 3px;
+    background-color: hsl(0, 0%, 54%);
+    color: hsl(0, 0%, 100%);
+    box-shadow: rgb(189, 158, 158) 0px 0px 0px 0px;
+    transform: translateY(10px);
+    transition: 100ms;
+}
+
+.pag404
+{
+    text-align: center;
+    padding: 25px;
+}
+
+.voltar
+{
+    background-color: black;
+    color: white;
+    padding: 10px;
+    border-radius: 5px;
+    text-decoration: none;
+    transition: background-color 1s;
+}
+
+.voltar:hover
+{
+    background-color: rgb(119, 20, 20);
+}
+
+.img2 {
+    width: 250px;
+    height: 250px;
+    background: #e8e8e800;
+    border-radius: 100%;
+    margin: auto;
+    margin-top: 10px;
+    padding-bottom: 50px;
+}
